@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { Field, Formik, Form, ErrorMessage } from 'formik';
 import imagelogo from './assets/login.png';
-import CommentForm from './Components/CommentForm';
-import ProductForm from './Components/ProductForm';
+// import CommentForm from './Components/CommentForm';
+// import ProductForm from './Components/ProductForm';
 
 function App() {
   return (
