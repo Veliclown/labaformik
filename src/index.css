@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.blocktext{
+  font-weight: 500;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.tetspun{
+  color: rgb(36, 36, 255);
+  font-weight: 700;
+}
+.register{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.oposition{
+  border: none;
+  border-bottom: 2px solid gray;
+  transition: border-bottom 0.5s ease; 
+}
+
+.error{
+  color: red;
+}
+.oposition:focus {
+  outline: none; 
+  border-bottom: 2px solid rgb(60, 12, 236);
+}
+.buttonclick{
+  margin-top: 20px;
+  background-color: rgb(0, 0, 255);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 18px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.5s ease; 
+  border: none;
+  cursor: pointer;
+}
+.photo{
+  border-radius: 10px;
+}
+.flexdiv{
+  margin-top: 10%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.buttonclick:hover{
+  background-color: rgb(3, 3, 151);
+  
+}
+.oposition::placeholder {
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  transition: opacity 0.5s ease;
+}
+.oposition:hover::placeholder {
+  opacity: 0;
+}
+.labelpoly{
+  color: gray;
+}
+@media (max-width: 480px) {
+  .photo{
+    width: 300px;
+  }
+  .onediv{
+    
+    order: 2;
+  }
+  .dvadiv{
+   
+    order: 1;
+  }
+}
